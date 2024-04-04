@@ -1,0 +1,121 @@
+body {
+    background: #355C7D;
+    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#main-game {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.rules {
+    margin: 5rem;
+    height: 300px;
+    padding: 2rem;
+    border: 2px solid blueviolet;
+    border-radius: 30px;
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+}
+
+
+
+.rules ul li {
+    font-size: 21px;
+}
+
+.sudoku-board {
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: rgb(197, 153, 96);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 495px;
+    width: 510px;
+    background-color: #000000;
+}
+
+.sudoku-box {
+    height: 50px;
+    width: 500px;
+    border: 2px solid #aaa;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.cell {
+    width: 48px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+}
+
+.input-css {
+    font-size: xx-large;
+    color: #000000;
+    width: 48px;
+    height: 48px;
+    background-image: url("wood-pattern.png");
+    background-image: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #aaa;
+    background-color: rgb(197, 153, 96);
+    text-align: center;
+}
+
+::placeholder {
+    color: red;
+    opacity: 1;
+}
+
+::-ms-input-placeholder {
+    color: rgb(173, 138, 138);
+}
+
+#outer-box h1 {
+    text-align: center;
+    font-size: -webkit-xxx-large;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-top: 8px;
+    color: rgb(0, 0, 0);
+    font-weight:900;
+    background: #ff00cc;
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #df6418, #b1e407);
+    border: 2px solid rgb(1, 1, 104);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font: bold;
+}
+
+.btn:hover {
+    box-shadow: 4px 4px 10px rgb(121, 130, 255);
+}
